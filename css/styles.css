@@ -84,9 +84,10 @@ section .image-container img:nth-child(4n) {
 }
 
 footer {
-  background-color: #264653; /* Updated to deep blue-green */
+  background-color: #264653;
   text-align: center;
   padding: 0.625rem 0;
-  color: #E9C46A; /* Updated to gold */
+  color: #E9C46A;
   width: 100%;
+  margin-top: auto; /* Pushes footer to bottom */
 }
