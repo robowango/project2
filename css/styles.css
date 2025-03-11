@@ -1,9 +1,12 @@
-body {
+body { 
   font-family: 'Verdana', 'Geneva', sans-serif; /* Updated default font */
   color: #444; /* Changed text color */
   margin: 0;
   padding: 0;
   background-color: #E8F6F3; /* Softer background color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the page takes up at least the full viewport height */
 }
 
 .playball-regular {
@@ -48,6 +51,10 @@ nav ul li a {
   font-size: 1.25rem;
 }
 
+.wrapper {
+  flex: 1; /* Pushes footer to the bottom */
+}
+
 section {
   float: left;
   width: 75%;
@@ -77,11 +84,9 @@ section .image-container img:nth-child(4n) {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   background-color: #264653; /* Updated to deep blue-green */
   text-align: center;
   padding: 0.625rem 0;
   color: #E9C46A; /* Updated to gold */
+  width: 100%;
 }
