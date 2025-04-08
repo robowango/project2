@@ -10,13 +10,13 @@ body {
 }
 
 .playball-regular {
-  font-family: "Playball", cursive;
+  font-family: "Playball", helvetica;
   font-weight: 400;
   font-style: normal;
 }
 
 h1, h2 {
-  font-family: 'Playball', cursive; /* Retained Playball for headers */
+  font-family: 'Playball', helvetica; /* Retained Playball for headers */
 }
 
 h1 {
@@ -47,7 +47,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: #E9C46A; /* Updated to gold */
-  font-family: 'Playball', cursive;
+  font-family: 'Playball', helvetica;
   font-size: 1.25rem;
 }
 
